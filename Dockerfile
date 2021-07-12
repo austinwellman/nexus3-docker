@@ -15,7 +15,8 @@ RUN mkdir /tmp/sonatype && \
 # Runtime image
 # Logic adapted from official Dockerfile
 # https://github.com/sonatype/docker-nexus3/blob/master/Dockerfile
-FROM ubuntu:focal-20200115
+FROM ubuntu:18.04
+
 
 # Image metadata
 # git commit
